@@ -126,3 +126,12 @@ fig
 ### Discussion and Conclusion 
 
 Three of the six sites sampled met the acceptable criteria for enterococci levels, while three did not. The sites closer to the coast generally exhibited lower enterococci levels, indicating better water quality, whereas the inland sites showed higher levels. This pattern suggests that coastal influences contribute to improved water quality in terms of enterococci levels compared to inland areas. The elevated enterococci levels at inland sites may indicate potential sources of contamination or distinct environmental conditions affecting water quality. These findings highlight the importance of considering location and proximity to the coast in water quality assessments and underscore the need for enhanced water management practices in inland areas.
+
+### Sites Images 
+
+```{r ,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("/Users/lizortiz/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Interships/Miami Waterkeeper/MWK project/mwkimages.png")
+ grid.raster(img)
+```
